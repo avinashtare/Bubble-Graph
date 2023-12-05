@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    user-select: none;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.controller {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    height: 250px;
+    background: #ffffff2d;
+    color: #fff;
+    border-top-left-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0 0 20px 1px #f3f3f37a;
+}
+
+.controller h1 {
+    text-align: center;
+}
+.controller button{
+padding: 6px 12px;
+margin-top: 5px;
+border-radius: 5px;
+cursor: pointer;
+}
+.controller input{
+padding: 5px 10px;
+margin-top: 5px;
+border-radius: 5px;
+}
+
+
+.controller table tr th,td{
+margin: 0 2px 0 2px;
+}
